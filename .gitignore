@@ -47,6 +47,10 @@ __pycache__/
 data/
 datasets/
 mydata/
+#    예외 — 10주차 학습용 NSMC 부분집합(train.tsv · val.tsv, 약 2.3MB, CC0)만 올린다.
+#           원본 ratings_*.txt 는 노트북 셀 1 이 내려받는다
+!/10week_new/code/data/
+/10week_new/code/data/nsmc_subset/ratings_*.txt
 #    연습용 데이터 — sample_data.py 가 CIFAR-10 에서 자동으로 만든다 (9·12주차)
 mydata_sample/
 mydata_sample.zip

@@ -1,0 +1,26 @@
+# 10주차 LSTM 감성 분류 실습 (15_lstm_sentiment_*.ipynb, preprocess_text.py)
+#
+# 설치 (Git Bash, 가상환경을 켠 상태에서):
+#      pip install -r requirements.txt
+#
+# ※ GPU 로 학습하려면 torch 를 CUDA 판으로 먼저 설치한 뒤 위 명령을 실행한다.
+#      pip install torch --index-url https://download.pytorch.org/whl/cu126
+#    (그냥 pip install torch 를 하면 Windows 에서는 CPU 판이 설치된다.)
+#
+# 버전은 "이 버전 이상"(>=)으로 적었다. 강사 환경(Python 3.13)에서 검증한 버전이 하한이다.
+# == 로 고정하면 이미 설치한 CUDA 판 torch 가 PyPI 의 CPU 판으로 바뀌어 설치될 수 있다.
+# NSMC 데이터 내려받기(urllib)·전처리(re, json 등)는 파이썬 기본 모듈이라 설치가 필요 없다.
+
+# 노트북 실행
+jupyterlab>=4.6.2
+ipykernel>=7.3.0
+
+# 모델·학습
+torch>=2.8.0
+
+# 그래프 (학습 곡선, 혼동 행렬)
+numpy>=2.3.3
+matplotlib>=3.11.1
+
+# 평가 지표 (confusion_matrix, classification_report)
+scikit-learn>=1.7.2
