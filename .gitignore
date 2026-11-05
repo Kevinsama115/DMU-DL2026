@@ -96,3 +96,15 @@ temp/
 **/*.tar.gz
 **/*.zip
 **/*.pt
+
+# Python virtual environments
+.venv/
+venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
